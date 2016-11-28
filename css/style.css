@@ -1,0 +1,115 @@
+@import url(grid.css);
+
+
+
+html, body {
+  height: 100%;
+}
+.all-but-footer {
+  min-height: 100%;
+ margin-bottom: -40px; 
+}
+.all-but-footer:after {
+  content: "";
+  display: block;
+}
+
+
+
+
+
+html {
+	font-family: cursive;
+
+}    
+
+h1 {
+    color:green;
+ text-shadow: white;
+}
+
+ li:hover a { 
+     color:lightgreen
+  }
+
+  #telephone {
+      color:indianred;
+      font-size: 15px;
+      font-weight: 900; 
+  } 
+
+  li {
+	  float:left;
+	  padding:13px;
+	  list-style-type: none;
+	  padding-top: 5px;
+ }
+
+.main-menu li a {
+	font-size: 16px;
+}
+
+#main {
+	margin-top: 20px;
+	   background-color: lightgreen;
+	   padding-bottom: 15px;
+	   padding-top: 10px;
+	  }
+
+.content {
+	padding-top:20px;
+}
+
+blockquote {
+    background-color: white;
+	border:1px solid lightgreen;
+	border-radius: 10px;
+	padding: 5px;
+ color: green;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img:hover {
+opacity: 0.8;
+}
+
+#footer {
+	background: #222;
+	color: #eee;
+	font-size: 12px;
+	padding-top:5px;
+	height: 40px;
+}
+
+.logo {
+	
+	
+}
+
+
+
+.main-menu a{
+    color:gray;
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+table {
+    color:darkslategray;
+   
+}
+	
+td, th {
+border: 1px solid gray;
+}
+
+th {
+	background: #103431; 
+	color: white;
+}
+
+tr:hover {
+    background: #103431; 
+    color: #fff;
+   }
